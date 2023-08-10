@@ -25,8 +25,8 @@ public class Main {
     public static void main(String[] args) {
         Product p = new Product();
 
-        int x = p.Product(1,2);
-        int y = p.Product(1,2,3);
-        double z = p.Product(1.1,2.2);
+        p.Product(1,2);
+        p.Product(1,2,3);
+        p.Product(1.0,2.0);
     }
 }
